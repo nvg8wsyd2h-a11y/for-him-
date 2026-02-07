@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You, Always</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #cc0052;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      max-width: 700px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      background-color: #ff4d88;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff1a66;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>For You 🤍</h1>
+
+  <p id="story">
+    This isn’t just a game.  
+    It’s my heart, in pieces of words.  
+    Click… and let me say what I’ve been holding inside.
+  </p>
+
+  <button onclick="hero()">You, My Hero</button>
+  <button onclick="inspiration()">Why You Inspire Me</button>
+  <button onclick="love()">What You Mean to Me</button>
+  <button onclick="sorry()">What I Need to Say</button>
+  <button onclick="ending()">One Last Thing</button>
+
+  <script>
+    function hero() {
+      document.getElementById("story").innerHTML =
+      "You’ve always been my hero, even when you didn’t realise it. Not because you’re perfect, but because you keep trying. The way you handle things, the way you care, the way you show up — it inspires me more than you know.";
+    }
+
+    function inspiration() {
+      document.getElementById("story").innerHTML =
+      "You inspire me to be better. To grow. To reflect. Loving you made me want to become softer, stronger, and more aware. Just being with you changed me in ways I didn’t expect.";
+    }
+
+    function love() {
+      document.getElementById("story").innerHTML =
+      "You feel like safety to me. Like calm after chaos. Like someone I can lean on without pretending. You make ordinary moments feel special just by being you.";
+    }
+
+    function sorry() {
+      document.getElementById("story").innerHTML =
+      "I need to say this honestly. I’m sorry for hurting you. I never wanted to be the reason you felt pain, but intentions don’t erase impact. I see it now. And I truly regret the hurt my words or actions caused you.";
+    }
+
+    function ending() {
+      document.getElementById("story").innerHTML =
+      "I’m learning. I’m growing. I’m trying to love you in a way that feels safe, gentle, and respectful. I love you deeply — not just for who you are, but for who you help me become. If you let me, I want to keep choosing you, with more care and more honesty.";
+    }
+  </script>
+
+</body>
+</html>
